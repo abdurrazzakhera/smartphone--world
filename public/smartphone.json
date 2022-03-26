@@ -1,66 +1,72 @@
 [
   {
-    "_id": "623debe9878c2a5c4e842714",
-    "name": "Apple iPhone 13 Pro Max",
+    "id": "101",
+    "name": "Apple iPhone 13 Pro",
     "price": "1099.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
   },
   {
-    "_id": "623debe9d518bb261142e171",
-    "name": "Samsung Galaxy S22 Ultra 5G",
+    "id": "102",
+    "name": "Samsung Galaxy S22",
     "price": "1199.99",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg"
   },
   {
-    "_id": "623debe94890889e0d679944",
+    "id": "103",
     "name": "Sony Xperia Pro-I",
     "price": "1230.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-pro-i.jpg"
   },
   {
-    "_id": "623debe97ea34d4f33cf787c",
-    "name": "Motorola Edge+ (2020)",
+    "id": "104",
+    "name": "Motorola Edge+",
     "price": "1109.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-plus.jpg"
   },
   {
-    "_id": "623debe968b594d29539d7fb",
+    "id": "105",
     "name": "Huawei P50 Pro",
     "price": "1019.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pro.jpg"
   },
   {
-    "_id": "623debe97d0d10fd242c4f3a",
-    "name": "Samsung Galaxy S22+ 5G",
+    "id": "106",
+    "name": "Samsung Galaxy S22+",
     "price": "999.99",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg"
   },
   {
-    "_id": "623debe91d14395f55171952",
+    "id": "107",
     "name": "Xiaomi Mi 11 Ultra",
     "price": "1069.99",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11-ultra-5g-k1.jpg"
   },
   {
-    "_id": "623debe9d6d959fb93491b97",
+    "id": "108",
     "name": "Asus ROG Phone 3",
     "price": "1569.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-3-zs661ks.jpg"
   },
   {
-    "_id": "623debe9d6d959fb93491b97",
+    "id": "109",
     "name": "Oppo Find X5 Pro",
     "price": "1460.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg"
   },
   {
-    "_id": "623debe9d6d959fb93491b97",
+    "id": "110",
     "name": "OnePlus 10 Pro",
     "price": "899.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-10-pro.jpg"
   },
   {
-    "_id": "623debe9d6d959fb93491b97",
+    "id": "111",
+    "name": "Honor Magic4 Ultimate",
+    "price": "1049.00",
+    "picture": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic4-ultimate.jpg"
+  },
+  {
+    "id": "112",
     "name": "Honor Magic4 Ultimate",
     "price": "1049.00",
     "picture": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic4-ultimate.jpg"
