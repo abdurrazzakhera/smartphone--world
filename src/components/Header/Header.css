@@ -1,10 +1,12 @@
 .headStyle {
-  background-color: antiquewhite;
-  color: black;
+  background-color: rgba(73, 68, 60, 0.902);
+  color: white;
 }
 .headStyle h2 {
   font-size: 45px;
+  font-family: -webkit-body;
 }
 .headStyle h3 {
-  font-size: 32px;
+  font-size: 30px;
+  font-family: cursive;
 }
