@@ -1,0 +1,10 @@
+.headStyle {
+  background-color: antiquewhite;
+  color: black;
+}
+.headStyle h2 {
+  font-size: 45px;
+}
+.headStyle h3 {
+  font-size: 32px;
+}

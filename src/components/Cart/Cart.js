@@ -5,7 +5,7 @@ const Cart = ({ cart }) => {
   console.log(cart);
   return (
     <div>
-      <div>
+      <div className='singleCart'>
         <p> {cart.name}</p>
       </div>
     </div>

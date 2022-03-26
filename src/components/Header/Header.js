@@ -1,8 +1,9 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className='bg-info p-3 text-white text-bold mb-3'>
+    <div className='p-3  text-bold mb-3 text-center headStyle'>
       <h2>SMARTPHONE WORLD</h2>
       <h3>Choose Your Favorite Phone</h3>
     </div>
