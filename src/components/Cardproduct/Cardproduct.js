@@ -8,7 +8,7 @@ const Cardproduct = (props) => {
   const { product, addToCart } = props;
   const { name, price, picture } = product;
   return (
-    <div className='col'>
+    <div className='col-sm-12 col-md-6 col-lg-4'>
       <div className='card h-100'>
         <div className='card-body'>
           <img src={picture} alt='' />

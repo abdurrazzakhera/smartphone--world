@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Cardproduct from "../Cardproduct/Cardproduct";
 import Cart from "../Cart/Cart";
-
+import "./Products.css";
 import "./Products.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
   const [carts, setCarts] = useState([]);
-
+  const cartName = carts.map((cart) => cart.name);
+  const [singphone, setSingphon] = useState();
   useState(() => {
     fetch("smartphone.json")
       .then((res) => res.json())
@@ -18,15 +19,19 @@ const Products = () => {
     const newCarts = [...carts, product];
     setCarts(newCarts);
   };
-
   const randoma = (name) => {
     const randomo = name[Math.floor(Math.random() * name.length)];
-    console.log(randomo);
+    setSingphon(randomo);
+    setCarts([]);
+  };
+  const removeCarts = () => {
+    setCarts([]);
+    setSingphon([]);
   };
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-9'>
+        <div className='col-lg-9 col-md-6 col-sm-12'>
           <div className='row row-cols-1 row-cols-md-3 g-4'>
             {products.map((product) => (
               <Cardproduct
@@ -37,13 +42,13 @@ const Products = () => {
             ))}
           </div>
         </div>
-        <div className='col-3 bg-info p-3'>
+        <div className='col-lg-3 col-md-6 col-sm-12 bg-info p-3 cartStyle'>
           {carts.map((cart) => (
             <Cart key={cart.id} cart={cart}></Cart>
           ))}
-          <button onClick={() => randoma(carts.map((cart) => cart.name))}>
-            Ramdom
-          </button>
+          <p> {singphone}</p>
+          <button onClick={() => randoma(cartName)}>Ramdom</button> <br />
+          <button onClick={removeCarts}>All Remove</button>
         </div>
       </div>
     </div>

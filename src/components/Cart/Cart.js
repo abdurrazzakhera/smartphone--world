@@ -1,10 +1,13 @@
 import React from "react";
+import "./Cart.css";
 
 const Cart = ({ cart }) => {
   console.log(cart);
   return (
     <div>
-      <p> {cart.name}</p>
+      <div>
+        <p> {cart.name}</p>
+      </div>
     </div>
   );
 };
